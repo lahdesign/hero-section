@@ -8,7 +8,8 @@
     <title>Hero example</title>
 </head>
 <body>
-    <!-- with full animation -->
+    <!-- moving background image -->
+    <!-- the graphics are styled in the main.css -->
     <main class="motion-wrapper">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	        viewBox="0 0 1000 2000" style="enable-background:new 0 0 1000 2000;" xml:space="preserve">
@@ -23,33 +24,23 @@
             </g>
         </svg>
 
-        <div class="text-container">
-            <p>This is some text from cexample one that is centered on the background image.</p>
+        <div class="motion-text-container">
+            <p>This is some text from example one that is centered on the background image.</p>
           </div>
-
+<h1>Example one: background graphic in motion</h1>
 
 </main>
-    <!-- no animation -->
+    <!-- static background image-->
+    <!-- the image colors were set with design software -->
         <main class="static-wrapper">
           <img class="background-image-static" src="assets/circle-stack-static.svg" alt="Three circles stacked on top of each other vertically. The first is red, the next is light blue, the last is orange. They are on a blue-gray background">
-          <div class="text-container">
-            <p>This is some centered text on top of the background image.</p>
+          <div class="static-text-container">
+            <p>This is some centered text on top of the static background image.</p>
           </div>
         </main>
 
-    <!-- with animation -->
 
-    <!-- Example three -->
-    <div class="svg-container">
-        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-          <!-- Layer 1 -->
-          <rect class="layer" width="100" height="100"/>
-          <!-- Layer 2 -->
-          <rect class="layer" width="100" height="100"/>
-          <!-- Layer 3 -->
-          <rect class="layer" width="100" height="100"/>
-        </svg>
-      </div>
+
 
 
       </body>
